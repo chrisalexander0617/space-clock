@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* 
+{
+    margin:0 auto;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:Orbitron;
+}
+
+body 
+{
+    background:rgb(12, 12, 12);
+    color:#fff;
+    padding-top:100px;
+}
+
+.container 
+{
+margin:0 auto;
+width:1300px;
+height:500px;
+text-align: center;
+padding-top:130px;
+
+
+}
+
+.clock-numbers 
+{
+    margin:0 auto;
+    margin-bottom:10px;
+    width: 100%;
+    display:inline-block;
+}
+
+.clock-numbers  span 
+{
+    font-size:110px;
+    font-weight: bold;
+    color:#8cffff;
+    width:100px;
+    text-align: center;
+    text-shadow: 0 0 6px #8cffff;
+}
+
+.time {
+  padding:0px;
+  margin;0 auto;
+  display:inline-block;
+  width:250px;
+  box-sizing:border-box;
+
+  
+}
+div
+{
+    margin:0 auto;
+}
+
+div > p
+{
+    font-size:30px;
+    margin: 0px 8px 0px 8px;
+    font-weight: bold;
+    color:#545454;
+    display: inline-block;
+}
+
+.active 
+{
+    color:#8cffff;
+    text-shadow: 0 0 5px #8cffff;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+   .container
+   {
+    width:100%;
+   }
+
+   .clock-numbers  span 
+   {
+       font-size:10vw;
+   }
+  .time 
+  {
+ 
+    width:23%;
+  
+    padding;0px;
+  }
+
+   div > p 
+   {
+       font-size: 3vw;
+   }
+
+
+  }
